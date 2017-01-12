@@ -1,0 +1,23 @@
+[user]
+	email = luke@lukeshiner.com
+	name = Luke Shiner
+[core]
+	pager = less
+	editor = nano
+	preloadindex = true
+	fscache = true
+	symlinks = false
+	filemode = false
+	autocrlf = True
+	safecrlf = false
+[gui]
+	recentrepo = C:/xampp/htdocs/stcadmin.axe-valley.co.uk
+	recentrepo = C:/Program Files/Python 3.5/Lib/linnapi
+[color]
+	ui = always
+[alias]
+	logg = log --oneline --graph --decorate --all --pretty=format:"%C(auto)%h\\ %cr\\ %d\\ %s"
+	logp = log --oneline --graph --decorate --all --pretty=format:"%h\\ %ci\\ %d\\ %s"
+	st = status
+[push]
+	default = simple
