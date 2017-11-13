@@ -10,9 +10,6 @@
 	filemode = false
 	autocrlf = True
 	safecrlf = false
-[gui]
-	recentrepo = C:/xampp/htdocs/stcadmin.axe-valley.co.uk
-	recentrepo = C:/Program Files/Python 3.5/Lib/linnapi
 [color]
 	ui = always
 [alias]
