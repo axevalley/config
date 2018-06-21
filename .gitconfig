@@ -6,15 +6,20 @@
 	editor = nano
 	preloadindex = true
 	fscache = true
-	symlinks = false
+	symlinks = true
 	filemode = false
-	autocrlf = True
+	autocrlf = false
 	safecrlf = false
 [color]
 	ui = always
 [alias]
 	logg = log --oneline --graph --decorate --all --pretty=format:"%C(auto)%h\\ %cr\\ %d\\ %s"
 	logp = log --oneline --graph --decorate --all --pretty=format:"%h\\ %ci\\ %d\\ %s"
+	logo = log --oneline --graph --decorate --pretty=format:"%C(auto)%h\\ %cr\\ %d\\ %s"
 	st = status
 [push]
 	default = simple
+[winUpdater]
+	recentlySeenVersion = 2.15.0.windows.1
+[cola]
+	spellcheck = false
