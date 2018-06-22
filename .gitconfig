@@ -19,7 +19,3 @@
 	st = status
 [push]
 	default = simple
-[winUpdater]
-	recentlySeenVersion = 2.15.0.windows.1
-[cola]
-	spellcheck = false
