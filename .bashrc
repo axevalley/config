@@ -206,6 +206,20 @@ else \
   # @2 - Prompt when not in GIT repo
   echo " '$Yellow$PathShort$Color_Off'\$ "; \
 fi)'
-
+export PATH=~/python/2.7.15/bin:$PATH
+export PATH=~/python/3.4.8/bin:$PATH
+export PATH=~/python/3.5.0/bin:$PATH
+export PATH=~/python/3.5.1/bin:$PATH
+export PATH=~/python/3.5.2/bin:$PATH
+export PATH=~/python/3.5.3/bin:$PATH
+export PATH=~/python/3.5.4/bin:$PATH
+export PATH=~/python/3.5.5/bin:$PATH
+export PATH=~/python/3.6.0/bin:$PATH
+export PATH=~/python/3.6.1/bin:$PATH
+export PATH=~/python/3.6.2/bin:$PATH
+export PATH=~/python/3.6.3/bin:$PATH
+export PATH=~/python/3.6.4/bin:$PATH
 export PATH=~/python/3.6.5/bin:$PATH
+export PATH=~/python/3.6.6/bin:$PATH
+export PATH=~/python/3.7.0/bin:$PATH
 source virtualenvwrapper.sh
